@@ -42,6 +42,22 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _DindingdalamluarCustomFunction_1641ce2ea50fe5f86768ff4d974a1fb4_Image13396_14:
+        m_Texture: {fileID: 2800000, guid: b9918ab24466d534893c1558956dd97c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DindingdalamluarCustomFunction_1641ce2ea50fe5f86768ff4d974a1fb4_Image13402_15:
+        m_Texture: {fileID: 2800000, guid: b15fe3912e0a25044ae2d061adade139, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DindingdalamluarCustomFunction_1641ce2ea50fe5f86768ff4d974a1fb4_Image13404_16:
+        m_Texture: {fileID: 2800000, guid: 8a68358d584afdb42a61860651f32bf7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DindingdalamluarCustomFunction_1641ce2ea50fe5f86768ff4d974a1fb4_Image13406_17:
+        m_Texture: {fileID: 2800000, guid: 8a68358d584afdb42a61860651f32bf7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _DindingdalamluarCustomFunction_31af3f5ebbab49791bbb3876a02d26fe_Image36174_14:
         m_Texture: {fileID: 2800000, guid: b9918ab24466d534893c1558956dd97c, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -55,6 +71,22 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DindingdalamluarCustomFunction_31af3f5ebbab49791bbb3876a02d26fe_Image37822_16:
+        m_Texture: {fileID: 2800000, guid: 8a68358d584afdb42a61860651f32bf7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DindingdalamluarCustomFunction_545f85e7fccc58d764f6839c1c616ed1_Image13396_14:
+        m_Texture: {fileID: 2800000, guid: b9918ab24466d534893c1558956dd97c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DindingdalamluarCustomFunction_545f85e7fccc58d764f6839c1c616ed1_Image13402_15:
+        m_Texture: {fileID: 2800000, guid: b15fe3912e0a25044ae2d061adade139, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DindingdalamluarCustomFunction_545f85e7fccc58d764f6839c1c616ed1_Image13404_16:
+        m_Texture: {fileID: 2800000, guid: 8a68358d584afdb42a61860651f32bf7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DindingdalamluarCustomFunction_545f85e7fccc58d764f6839c1c616ed1_Image13406_17:
         m_Texture: {fileID: 2800000, guid: 8a68358d584afdb42a61860651f32bf7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -103,6 +135,22 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DindingdalamluarCustomFunction_76caf092c09e89e4b744de426dc77a71_Image37822_16:
+        m_Texture: {fileID: 2800000, guid: 8a68358d584afdb42a61860651f32bf7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DindingdalamluarCustomFunction_822b5d17dc0f7817091324541c837c37_Image13396_14:
+        m_Texture: {fileID: 2800000, guid: b9918ab24466d534893c1558956dd97c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DindingdalamluarCustomFunction_822b5d17dc0f7817091324541c837c37_Image13402_15:
+        m_Texture: {fileID: 2800000, guid: b15fe3912e0a25044ae2d061adade139, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DindingdalamluarCustomFunction_822b5d17dc0f7817091324541c837c37_Image13404_16:
+        m_Texture: {fileID: 2800000, guid: 8a68358d584afdb42a61860651f32bf7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DindingdalamluarCustomFunction_822b5d17dc0f7817091324541c837c37_Image13406_17:
         m_Texture: {fileID: 2800000, guid: 8a68358d584afdb42a61860651f32bf7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}

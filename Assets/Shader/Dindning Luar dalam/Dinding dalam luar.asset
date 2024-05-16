@@ -16,11 +16,21 @@ MonoBehaviour:
   position: {x: -997.0233, y: -293.9079}
   ports:
     keys:
-    - sUvInput
     - sImageTexture
+    - sUvInput
     - sLOD_Num
     - Result
     values:
+    - _fieldName: sImageTexture
+      _node: {fileID: -8536077912376323028}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      _nodePortType: Texture2D
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
     - _fieldName: sUvInput
       _node: {fileID: -8536077912376323028}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
@@ -30,16 +40,6 @@ MonoBehaviour:
       - fieldName: name_vector2
         node: {fileID: -1169460541436647191}
         reroutePoints: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sImageTexture
-      _node: {fileID: -8536077912376323028}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: Texture2D
-      connections: []
       _direction: 0
       _connectionType: 1
       _typeConstraint: 0
@@ -74,7 +74,7 @@ MonoBehaviour:
   LOD_Num: 0
   ImageTexture: {fileID: 2800000, guid: b9918ab24466d534893c1558956dd97c, type: 3}
   sUvInput: float2(0, 0)
-  sImageTexture: image_36174
+  sImageTexture: image_13396
   sLOD_Num: 
   Result: 
   fType: 0
@@ -95,37 +95,14 @@ MonoBehaviour:
   position: {x: -539.0928, y: -146.32404}
   ports:
     keys:
-    - sColorIn
-    - sFloatHue
-    - sFloatSat
-    - sFloatVal
     - sFloatFac
+    - sFloatVal
+    - sFloatSat
+    - sFloatHue
+    - sColorIn
     - Result
     values:
-    - _fieldName: sColorIn
-      _node: {fileID: -8495529077435219604}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: vector4
-      connections:
-      - fieldName: Result
-        node: {fileID: -8536077912376323028}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sFloatHue
-      _node: {fileID: -8495529077435219604}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
-      connections: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sFloatSat
+    - _fieldName: sFloatFac
       _node: {fileID: -8495529077435219604}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
@@ -145,12 +122,35 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
-    - _fieldName: sFloatFac
+    - _fieldName: sFloatSat
       _node: {fileID: -8495529077435219604}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       _nodePortType: float
       connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sFloatHue
+      _node: {fileID: -8495529077435219604}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      _nodePortType: float
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sColorIn
+      _node: {fileID: -8495529077435219604}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      _nodePortType: vector4
+      connections:
+      - fieldName: Result
+        node: {fileID: -8536077912376323028}
+        reroutePoints: []
       _direction: 0
       _connectionType: 1
       _typeConstraint: 0
@@ -177,7 +177,7 @@ MonoBehaviour:
     b: 0.8
     a: 1
   floatHue: 0
-  floatSat: 0
+  floatSat: 0.9000001
   floatVal: 0
   floatFac: 1
   sColorIn: float4(0.8, 0.8, 0.8, 1)
@@ -252,7 +252,10 @@ MonoBehaviour:
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       _nodePortType: float
-      connections: []
+      connections:
+      - fieldName: Result
+        node: {fileID: 631238895979811169}
+        reroutePoints: []
       _direction: 0
       _connectionType: 1
       _typeConstraint: 0
@@ -262,10 +265,7 @@ MonoBehaviour:
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       _nodePortType: vector4
-      connections:
-      - fieldName: Result
-        node: {fileID: 631238895979811169}
-        reroutePoints: []
+      connections: []
       _direction: 0
       _connectionType: 1
       _typeConstraint: 0
@@ -324,20 +324,10 @@ MonoBehaviour:
   position: {x: -553.5999, y: 53.633057}
   ports:
     keys:
-    - sFac
     - sColor
+    - sFac
     - Result
     values:
-    - _fieldName: sFac
-      _node: {fileID: -4425406453770789387}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
-      connections: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
     - _fieldName: sColor
       _node: {fileID: -4425406453770789387}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
@@ -347,6 +337,16 @@ MonoBehaviour:
       - fieldName: Result
         node: {fileID: 6030045382588238141}
         reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sFac
+      _node: {fileID: -4425406453770789387}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      _nodePortType: float
+      connections: []
       _direction: 0
       _connectionType: 1
       _typeConstraint: 0
@@ -367,7 +367,7 @@ MonoBehaviour:
   useCustomColor: 0
   nodeColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
   nodeLabel: 
-  fac: -1.6999998
+  fac: 3
   color:
     r: 0.5
     g: 0.5
@@ -412,9 +412,6 @@ MonoBehaviour:
       _nodePortType: vector2
       connections:
       - fieldName: sUvInput
-        node: {fileID: 631238895979811169}
-        reroutePoints: []
-      - fieldName: sUvInput
         node: {fileID: -8536077912376323028}
         reroutePoints: []
       - fieldName: sUvInput
@@ -422,6 +419,9 @@ MonoBehaviour:
         reroutePoints: []
       - fieldName: sUvInput
         node: {fileID: 3549270910092334672}
+        reroutePoints: []
+      - fieldName: sUvInput
+        node: {fileID: 631238895979811169}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -460,8 +460,8 @@ MonoBehaviour:
   newFilePath: D:/PROYEK AKHIR/Algo dan SIbo/chapter3/Assets/Shader/Dindning Luar
     dalam/Dinding dalam luar.asset
   graphMenuPath: Material Nodes Graph
-  isEnable: 1
-  mousePos: {x: 646, y: 343}
+  isEnable: 0
+  mousePos: {x: 40, y: -12}
   TextureCurvePaths: []
   OldOutputNodeSlotNames:
   - Color_vector4
@@ -489,11 +489,21 @@ MonoBehaviour:
   position: {x: -984, y: -8}
   ports:
     keys:
-    - sUvInput
     - sImageTexture
+    - sUvInput
     - sLOD_Num
     - Result
     values:
+    - _fieldName: sImageTexture
+      _node: {fileID: 631238895979811169}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      _nodePortType: Texture2D
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
     - _fieldName: sUvInput
       _node: {fileID: 631238895979811169}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
@@ -503,16 +513,6 @@ MonoBehaviour:
       - fieldName: name_vector2
         node: {fileID: -1169460541436647191}
         reroutePoints: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sImageTexture
-      _node: {fileID: 631238895979811169}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: Texture2D
-      connections: []
       _direction: 0
       _connectionType: 1
       _typeConstraint: 0
@@ -533,7 +533,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       _nodePortType: vector4
       connections:
-      - fieldName: Emission_vector4
+      - fieldName: Smoothness_float
         node: {fileID: -5873434034135545975}
         reroutePoints: []
       _direction: 1
@@ -547,7 +547,7 @@ MonoBehaviour:
   LOD_Num: 0
   ImageTexture: {fileID: 2800000, guid: 8a68358d584afdb42a61860651f32bf7, type: 3}
   sUvInput: float2(0, 0)
-  sImageTexture: image_36178
+  sImageTexture: image_13406
   sLOD_Num: 
   Result: 
   fType: 0
@@ -626,7 +626,7 @@ MonoBehaviour:
   LOD_Num: 0
   ImageTexture: {fileID: 2800000, guid: 8a68358d584afdb42a61860651f32bf7, type: 3}
   sUvInput: float2(0, 0)
-  sImageTexture: image_37822
+  sImageTexture: image_13404
   sLOD_Num: 
   Result: 
   fType: 0
@@ -647,11 +647,21 @@ MonoBehaviour:
   position: {x: -984, y: 280}
   ports:
     keys:
-    - sUvInput
     - sImageTexture
+    - sUvInput
     - sLOD_Num
     - Result
     values:
+    - _fieldName: sImageTexture
+      _node: {fileID: 6030045382588238141}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      _nodePortType: Texture2D
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
     - _fieldName: sUvInput
       _node: {fileID: 6030045382588238141}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
@@ -661,16 +671,6 @@ MonoBehaviour:
       - fieldName: name_vector2
         node: {fileID: -1169460541436647191}
         reroutePoints: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sImageTexture
-      _node: {fileID: 6030045382588238141}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: Texture2D
-      connections: []
       _direction: 0
       _connectionType: 1
       _typeConstraint: 0
@@ -705,7 +705,7 @@ MonoBehaviour:
   LOD_Num: 0
   ImageTexture: {fileID: 2800000, guid: b15fe3912e0a25044ae2d061adade139, type: 3}
   sUvInput: float2(0, 0)
-  sImageTexture: image_36176
+  sImageTexture: image_13402
   sLOD_Num: 
   Result: 
   fType: 0
